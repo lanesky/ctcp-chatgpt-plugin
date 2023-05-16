@@ -1,7 +1,7 @@
 openapi: 3.0.1
 info:
-  title: Clinical Trial Criteria Parser Plugin
-  description: The Clinical Trial Criteria Parser is a ChatGPT plugin that meticulously extracts and analyzes eligibility criteria from clinical trial records sourced from ClinicalTrials.gov. By leveraging the advanced language understanding capabilities of ChatGPT, this plugin identifies and categorizes key medical terms and patient demographics from the inclusion and exclusion criteria. This aids in providing a clear, concise, and structured overview of the trial's participant requirements, facilitating easier understanding and navigation of clinical trial eligibility. An example input for this plugin could be "nctid NCT05859269".
+  title: Clinical Trial Criteria Parser
+  description: The Clinical Trial Criteria Parser meticulously extracts and analyzes eligibility criteria from clinical trial records sourced from ClinicalTrials.gov. This application identifies and categorizes key medical terms and patient demographics from the inclusion and exclusion criteria. This aids in providing a clear, concise, and structured overview of the trial's participant requirements, facilitating easier understanding and navigation of clinical trial eligibility. An example input could be "nctid NCT05859269".
   version: "v1"
 servers:
   # - url: http://localhost:5003
