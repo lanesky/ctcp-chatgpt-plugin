@@ -4,6 +4,10 @@
 
 The Clinical Trial Criteria Parser is a ChatGPT plugin that meticulously extracts and analyzes eligibility criteria from clinical trial records. By leveraging the advanced language understanding capabilities of ChatGPT, this plugin identifies and categorizes key medical terms and patient demographics from the inclusion and exclusion criteria. This aids in providing a clear, concise, and structured overview of the trial's participant requirements.
 
+
+Uploading Screen Recording 2023-05-17 at 12.27.24.mov…
+
+
 ## Setup
 
 To install the required packages for this plugin, run the following command:
