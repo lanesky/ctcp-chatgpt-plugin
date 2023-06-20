@@ -16,7 +16,7 @@ async def fetch_trial_data(trialID):
     return response.text
 
 def parse_eligibility_criteria(html):
-    soup = BeautifulSoup(xml, 'html.parser')
+    soup = BeautifulSoup(html, 'html.parser')
     eligibilityCriteria = soup.find(id="eligibility").parent.parent.parent.find_all('ul')
     print(eligibilityCriteria)
     inclusionCriteria, exclusionCriteria = eligibilityCriteria[0].text.strip(), eligibilityCriteria[1].text.strip()
@@ -30,7 +30,8 @@ async def fetch_trial_data_via_api(trialID):
     return response.text
 
 def parse_eligibility_criteria_from_xml(xml):
-    soup = BeautifulSoup(xml, 'lxml')
+    # your_xml_string is the XML response you've received
+    soup = BeautifulSoup(xml, 'html.parser')  # Use Python's built-in parser
 
     # try to find 'FullStudyList' element
     full_study_list = soup.find('fullstudylist')
